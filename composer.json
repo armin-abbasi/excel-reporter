@@ -1,0 +1,22 @@
+{
+    "name": "xerobase/excel-reporter",
+    "description": "Creating excel reports never been easier!",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel","excel","report","excel reporter","armin","abbasi","php excel", "xerobase"],
+    "authors": [
+        {
+            "name": "Armin Abbasi",
+            "email": "armin.abbasi@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpoffice/phpspreadsheet": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xerobase\\ExcelReporter\\": "src"
+        }
+    }
+}
