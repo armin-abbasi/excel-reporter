@@ -18,7 +18,19 @@ $exporter = new \Xerobase\ExcelReporter\Export();
 You can simply export your data by calling export method :
 
 ```php
+// Your source can be an Eloquent Model
 $books = \App\Models\Book::all();
+
+// Or an associative array
+$books = [
+  'Title' => 'Foo',
+  'Author' => 'Bar'
+];
+
+// Or an stdClass object
+$books = new stdClass();
+$books->title = 'Foo';
+$books->author = 'Bar';
 
 $exporter->export($books);
 ```
