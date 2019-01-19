@@ -3,7 +3,7 @@
     "description": "Creating excel reports never been easier!",
     "type": "library",
     "license": "MIT",
-    "keywords": ["laravel","excel","report","excel reporter","armin","abbasi","php excel", "xerobase"],
+    "keywords": ["laravel","excel","report","excel reporter","armin","abbasi","php excel", "xerobase", "export", "excel export", "php", "package"],
     "authors": [
         {
             "name": "Armin Abbasi",
